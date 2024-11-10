@@ -1,0 +1,98 @@
+
+.contactContainer {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: red;
+    font-weight: bolder;
+  }
+  
+  .contactTitle {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .homeLink {
+    color: #f98585;
+    font-size: 14px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .formLabel {
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .formInput,
+  .formTextarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .formTextarea {
+    height: 120px;
+  }
+  
+  .submitBtn {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  .submitBtn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 0, 127, 0.4);
+  }
+  
+  /* media quiry */
+  @media (min-width: 768px) {
+    .contactContainer {
+      width: 80%;
+    }
+  
+    .contactTitle {
+      font-size: 26px;
+    }
+  
+    .homeLink {
+      font-size: 18px;
+    }
+  }
+  
